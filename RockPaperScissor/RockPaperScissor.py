@@ -63,9 +63,9 @@ def scissor():
 
 button_rock = Button(text = "         ROCK           ",bg="#808487",font=("arial",15,"italic bold"),relief=RIDGE,activebackground="#05945B",activeforeground = "white",width=24 , command=rock)
 button_rock.grid(column=0,row=1)
-button_paper = Button(text = "         PAPER           ",bg="#808487",font=("arial",15,"italic bold"),relief=RIDGE,activebackground="#05945B",activeforeground = "white",width=24 , command=paper)
+button_paper = Button(text = "         PAPER           ",bg="#808487",font=("arial",15,"italic bold"),relief=RIDGE,activebackground="#F2EECB",activeforeground = "white",width=24 , command=paper)
 button_paper.grid(column=0,row=2)
-button_scissor = Button(text = "         SCISSOR           ",bg="#808487",font=("arial",15,"italic bold"),relief=RIDGE,activebackground="#05945B",activeforeground = "white",width=24,command=scissor)
+button_scissor = Button(text = "         SCISSOR           ",bg="#808487",font=("arial",15,"italic bold"),relief=RIDGE,activebackground="#067D22",activeforeground = "white",width=24,command=scissor)
 button_scissor.grid(column=0,row=3)
 
 rps.mainloop()
